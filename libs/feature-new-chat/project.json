@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/feature-new-chat",
+  "sourceRoot": "libs/feature-new-chat/src",
+  "prefix": "konnect",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/feature-new-chat"],
+      "options": {
+        "jestConfig": "libs/feature-new-chat/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/feature-new-chat/src/**/*.ts",
+          "libs/feature-new-chat/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

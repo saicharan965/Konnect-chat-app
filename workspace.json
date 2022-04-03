@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "chat": "apps/chat",
+    "feature-new-chat": "libs/feature-new-chat"
+  }
+}
