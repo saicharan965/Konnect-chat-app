@@ -19,7 +19,6 @@ const ROUTES: Routes = [
     children: [
       { path: 'new-chat', component: NewChatComponent },
       { path: 'view-profile', component: ViewProfileComponent }
-
     ]
   },
   { path: '**', redirectTo: 'login', pathMatch: 'full' }

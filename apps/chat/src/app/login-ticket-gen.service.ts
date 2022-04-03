@@ -5,6 +5,7 @@ import { BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class LoginTicketGenService {
+  
   phoneNumber = new BehaviorSubject('')
   constructor() { }
   IsAuthorized(phoneNumber: any) {

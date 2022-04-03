@@ -6,15 +6,15 @@ import { Component, ElementRef, OnInit, ViewChild, AfterViewInit } from '@angula
   styleUrls: ['./new-chat.component.scss']
 })
 export class NewChatComponent implements AfterViewInit {
-  recipentPhoneNumber:any
+  recipentPhoneNumber: any
   @ViewChild('newChatButton') newChatButton: ElementRef | undefined;
   constructor() { }
 
   ngAfterViewInit(): void {
-    this.newChatButton?.nativeElement.click()   
+    this.newChatButton?.nativeElement.click()
   }
 
-  startChat(recipentPhoneNumber:any){
-    
+  startChat(recipentPhoneNumber: any) {
+
   }
 }
